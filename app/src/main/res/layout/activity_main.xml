@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="daeng.apps.belajarrecyclerview.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lst_data"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/lst_data"
+        android:id="@+id/pembatas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_harga"
+        android:layout_marginLeft="10dp"
+        android:text="Total Harga :"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/pembatas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTotalHarga"
+        android:layout_marginLeft="10dp"
+        android:text="Rp. Total ,-"
+        android:textSize="15dp"
+        android:layout_below="@+id/label_harga"/>
+</RelativeLayout>
