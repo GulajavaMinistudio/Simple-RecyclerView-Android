@@ -1,5 +1,5 @@
 # Simple-RecyclerView-Android
-How to basic implement with Recyclerview and Cardview in Android.
+How to implementation with Recyclerview and Cardview in Android.
 
 screenshot:
 
